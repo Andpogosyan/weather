@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.weather {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  background: url('images/weather3.jpg');
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  padding: 10px;
+  box-shadow: black 0 0 18px 3px;
+  color: white;
+  font-family: Arial;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.form input {
+  width: 200px;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: none;
+  margin-bottom: 10px;
+}
+.form input:focus{
+  outline: none;
+}
+
+.form button{
+  width: 215px;
+  border-radius: 5px;
+  background-color: #3C9DD0;
+  color: aliceblue;
+  border: none;
+}
+.form button:focus{
+  outline: none;
+}
+
+.form button:hover{
+  box-shadow: #3C9DD0 0 0 18px 3px;
+}
+
+.result {
+  margin: 20px;
+}
+.error {
+  margin: 20px;
+}
+body {
+  background: url('images/background2.jpg') repeat;
+  
+}
